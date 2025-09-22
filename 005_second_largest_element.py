@@ -20,8 +20,14 @@ solution = solve(input)
 print(solution)
 
 # This one is tricky.
-# Learned that condition order matters.
+#
+# Learned that condition order matters:
 # Python and/or use short-circuit evaluation, meaning that
 # if you do 'if first is None or n > first', the first condition
 # will short-circuit the second, meaning the second won't run.
 # If it did, it would fail due to NoneType comparison with an int.
+#
+# Here initializing first and second to 0 is a bad move.
+# It means that there are already assumed first and second values.
+# Therefore if the input array is all negative, nothing will happen.
+# Because a 0 is greater than any negative number.
