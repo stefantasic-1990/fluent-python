@@ -45,3 +45,12 @@ print("-----string reversal in place-----")
 s = "reverse me in place please"
 s = list(s) # convert to a list so that you can move characters around - strings are immutable
 
+l = 0
+r = len(s) - 1
+
+while l < r:
+    s[l], s[r] = s[r], s[l] # tuple unpacking lets you swap two variables in one line, no temp variable needed
+    l += 1
+    r -= 1
+s = "".join(s)
+print(s)
