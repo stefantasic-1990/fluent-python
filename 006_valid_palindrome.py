@@ -1,4 +1,4 @@
-# 0056: Second Largest Element
+# 006: Second Largest Element
 #
 # Given a string s, determine if it is a palindrome, considering only
 # alphanumeric characters and ignoring case.
