@@ -4,8 +4,8 @@
 # determine if the input string is valid.
 # A string is valid if:
 #
-# 1. Open brackets are closed by the same type of brackets
-# 2. Open brackets are closed in the correct order
+# 1. Open brackets are closed by the same type of brackets.
+# 2. Open brackets are closed in the correct order.
 
 input = "([)]"
 
