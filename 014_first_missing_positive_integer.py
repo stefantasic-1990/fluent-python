@@ -5,7 +5,6 @@
 #
 # Do not use extra hash sets or dicts.
 # Do not sort.
-import heapq
 
 nums = [1, 2, 0]
 
