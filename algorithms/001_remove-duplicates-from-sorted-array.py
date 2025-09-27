@@ -9,7 +9,7 @@
 
 nums = [3, 3, 6, 7, 23, 23, 27]
 
-def solve(nums: list[int]) -> list[int]:
+def solve1(nums: list[int]) -> list[int]:
     i = 1
     while i < len(nums):
         if nums[i] == nums[i-1]:
