@@ -6,7 +6,7 @@
 
 s = "  the sky  is  blue "
 
-def solve1(s: str) -> str:
+def solve(s: str) -> str:
     word = []
     words = []
     for ch in s:
@@ -20,7 +20,7 @@ def solve1(s: str) -> str:
 
     return " ".join(reversed(words))
     
-print(solve1(s))
+print(solve(s))
 
 # Easy to forget to add the last word if the string does not end in a space.
 # No need to check if word exists but this is more intentional and cleaner.
