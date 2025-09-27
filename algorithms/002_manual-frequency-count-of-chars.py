@@ -1,4 +1,4 @@
-# 002: Manual Frequency Count of Chars
+# 002: 002: Manual Frequency Count of Chars
 #
 # Given a string, count how many times each character appears.
 # Return a dictionary where keys are characters and values are frequencies.

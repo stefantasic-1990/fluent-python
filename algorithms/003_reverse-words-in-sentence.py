@@ -1,4 +1,4 @@
-# 003: Manual Frequency Count of Chars
+# 003: Reverse Words in Sentence
 #
 # Given a string, reverse the words in the sentence.
 # Return the reversed sentence as a string with no extra white space.
