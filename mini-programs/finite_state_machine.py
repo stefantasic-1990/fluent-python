@@ -1,4 +1,4 @@
-ops = "4 5 DUP POP 6 - 7 +"
+ops = "4 5 6 - 7 +"
 
 def get_top_int(stack):
     for item in reversed(stack):
