@@ -7,6 +7,7 @@ s = "banana"
 
 def solve(s: str) -> dict[str, int]:
     freqs = {}
+    
     for ch in s:
         freqs[ch] = freqs.get(ch, 0) + 1
 

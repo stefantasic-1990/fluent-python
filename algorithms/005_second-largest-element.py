@@ -9,6 +9,7 @@ ints = [5, 5]
 def solve(ints: list[int]) -> int:
     first = float("-inf")
     second = float("-inf")
+    
     for i in ints:
         if i > first:
             second = first

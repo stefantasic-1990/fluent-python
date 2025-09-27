@@ -9,6 +9,7 @@ s = "  the sky  is  blue "
 def solve(s: str) -> str:
     word = []
     words = []
+    
     for ch in s:
         if ch != " ":
             word.append(ch)

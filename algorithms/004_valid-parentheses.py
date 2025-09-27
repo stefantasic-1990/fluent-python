@@ -17,6 +17,7 @@ def solve(s: str) -> bool:
     }
     bracket_stack = []
     open_brackets = set(bracket_map.values())
+    
     for b in s:
         if b in open_brackets:
             bracket_stack.append(b)

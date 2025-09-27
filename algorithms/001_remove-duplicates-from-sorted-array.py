@@ -12,6 +12,7 @@ nums = [3, 3, 6, 7, 23, 23, 27]
 def solve(nums: list[int]) -> list[int]:
     i = 0
     j = 0
+    
     while j < len(nums):
         if nums[j] > nums[i]:
             i += 1
