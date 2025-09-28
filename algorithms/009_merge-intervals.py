@@ -8,7 +8,7 @@
 
 intervals = [[2, 6], [1, 3], [15, 18], [8, 15]]
 
-def solve(intervals: list[list]) -> list[list[int]]:
+def solve(intervals: list[list[int]]) -> list[list[int]]:
     j = 0
     intervals.sort()
 
