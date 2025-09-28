@@ -8,17 +8,17 @@ s = "abcabcbb"
 def solve(s: str) -> int:
     window = set()
     max_len = 0
-    i = j = 0
+    right = left = 0
 
-    while i < len(s):
-        if s[i] not in window:
-            window.add(s[i])
-            i += 1
-            max_len = max(max_len, i - j)
+    while right < len(s):
+        if s[right] not in window:
+            window.add(s[right])
+            max_len = max(max_len, len(window))
+            right += 1
         else:
-            while s[i] in window:
-                window.remove(s[j]) 
-                j += 1
+            while s[right] in window:
+                window.remove(s[left]) 
+                left += 1
 
     return max_len
 
