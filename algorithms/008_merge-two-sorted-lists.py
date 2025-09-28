@@ -24,4 +24,4 @@ def solve(list_a: list[int], list_b: list[int]) -> list[int]:
 
     return result
 
-print(solve(list_a, list_b))
+print(solve(list_a=list_a, list_b=list_b))

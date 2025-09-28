@@ -23,4 +23,4 @@ def solve(ints: list[int], target: int) -> list[int]:
 
     raise ValueError("No two numbers in list sum to target.")
 
-print(solve(ints, target))
+print(solve(ints=ints, target=target))

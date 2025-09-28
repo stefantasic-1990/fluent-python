@@ -33,4 +33,4 @@ def solve(intervals: list[list[int]], new_interval: list[int]) -> list[list[int]
 
     return result_intervals
 
-print(solve(intervals, new_interval))
+print(solve(intervals=intervals, new_interval=new_interval))
