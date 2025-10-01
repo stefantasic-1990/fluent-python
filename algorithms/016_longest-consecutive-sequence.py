@@ -12,14 +12,6 @@
 nums = [100, 4, 200, 1, 3, 2]
 
 def solve(nums: list[int]) -> int:
-    max_len = 0
-    nums_set = set(nums)
-    for n in nums:
-        len = 0
-        while n + len in nums_set:
-            max_len = max(max_len, len)
 
-    return max_len
 
-solution = solve(nums=nums)
-print(solution)
+print(solve(nums))

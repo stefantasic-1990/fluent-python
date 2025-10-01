@@ -20,4 +20,4 @@ def solve(nums: list[int]) -> int:
 
     return len(nums) + 1
 
-print(solve(nums=nums))
+print(solve(nums))

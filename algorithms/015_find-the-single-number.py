@@ -15,4 +15,4 @@ def solve(nums: list[int]) -> int:
 
     return element
 
-print(solve(nums=nums))
+print(solve(nums))
