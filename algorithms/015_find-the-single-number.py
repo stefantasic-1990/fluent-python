@@ -8,12 +8,11 @@
 nums = [4, 1, 2, 1, 2]
 
 def solve(nums: list[int]) -> int:
-    result = 0
+    element = 0
+    
     for n in nums:
-        result ^= n
-    return result
+        element ^= n
 
-solution = solve(nums=nums)
-print(solution)
+    return element
 
-# This is elegant.
+print(solve(nums=nums))
