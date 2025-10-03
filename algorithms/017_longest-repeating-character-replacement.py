@@ -17,7 +17,7 @@ def solve(s: str, k: int) -> int:
         freqs[s[i]] = freqs.get(s[i], 0) + 1
         max_freq = max(freqs[s[i]], max_freq)
 
-        while (i - j + 1) - max_freq > k:
+        if (i - j + 1) - max_freq > k:
             freqs[s[j]] = freqs.get(s[j], 0) - 1
             j += 1
 
